@@ -10,11 +10,13 @@ gem "oauth2"
 gem "omniauth-oauth2"
 gem "rdoc"
 
-gem "activemodel-serializers-xml", github: "rails/activemodel-serializers-xml"
+gem "activemodel-serializers-xml", git: "git@github.com:rails/activemodel-serializers-xml.git"
 
 gem "rails-controller-testing"
 
 gem "responders", "~> 2.4"
+
+gem 'bcrypt', git: 'git@github.com:pooza/bcrypt-ruby.git'
 
 group :test do
   gem "omniauth-facebook"

@@ -1,17 +1,22 @@
 GIT
-  remote: git://github.com/rails/activemodel-serializers-xml.git
-  revision: dd9c0acf26aab111ebc647cd8deb99ebc6946531
+  remote: git@github.com:pooza/bcrypt-ruby.git
+  revision: 9eeb640d870fe8291687d5712fe6be5c133f29b1
   specs:
-    activemodel-serializers-xml (1.0.1)
-      activemodel (> 5.x)
-      activesupport (> 5.x)
+    bcrypt (3.1.12.1)
+
+GIT
+  remote: git@github.com:rails/activemodel-serializers-xml.git
+  revision: 93689638c28525acc65afb638fce866826532641
+  specs:
+    activemodel-serializers-xml (1.0.2)
+      activemodel (>= 5.0.0.a)
+      activesupport (>= 5.0.0.a)
       builder (~> 3.1)
 
 PATH
   remote: .
   specs:
-    devise (4.6.2)
-      bcrypt (~> 3.0)
+    devise (4.6.2.1)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0, < 6.0)
       responders
@@ -62,7 +67,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
-    bcrypt (3.1.12)
     builder (3.2.3)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
@@ -184,6 +188,7 @@ DEPENDENCIES
   activemodel-serializers-xml!
   activerecord-jdbc-adapter
   activerecord-jdbcsqlite3-adapter
+  bcrypt!
   devise!
   jruby-openssl
   mocha (~> 1.1)
@@ -201,4 +206,4 @@ DEPENDENCIES
   webrat (= 0.7.3)
 
 BUNDLED WITH
-   1.17.1
+   1.17.3
